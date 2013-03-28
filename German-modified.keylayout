@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!-- Sat, 1 Jan 2005 Generated from KCHR: "German" -->
-<!--Last edited by Ukelele version 2.2.4 on 2013-03-27 at 16:16 (MEZ)-->
+<!--Last edited by Ukelele version 2.2.4 on 2013-03-28 at 11:32 (MEZ)-->
 <!--Created by Ukelele version 2.2.4 on 2013-03-27 at 16:08 (MEZ)-->
 <keyboard group="0" id="3" name="German-modified" maxout="1">
     <layouts>
@@ -211,7 +211,7 @@
             <key code="21" output="$"/>
             <key code="22" output="&#x0026;"/>
             <key code="23" output="%"/>
-            <key code="24" action="`"/>
+            <key code="24" output="`"/>
             <key code="25" output=")"/>
             <key code="26" output="/"/>
             <key code="27" output="?"/>
@@ -1774,12 +1774,6 @@
             <when state="s4" output="¨"/>
             <when state="s5" output="~"/>
         </action>
-        <action id="¨">
-            <when state="none" next="s4"/>
-        </action>
-        <action id="´">
-            <when state="none" next="s2"/>
-        </action>
         <action id="A">
             <when state="none" output="A"/>
             <when state="s1" output="Â"/>
@@ -1878,6 +1872,12 @@
         </action>
         <action id="~">
             <when state="none" next="s5"/>
+        </action>
+        <action id="¨">
+            <when state="none" next="s4"/>
+        </action>
+        <action id="´">
+            <when state="none" next="s2"/>
         </action>
     </actions>
     <terminators>
