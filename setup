@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ln -s ./German-modified.keylayout ~/Library/Keyboard\ Layouts
